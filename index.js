@@ -27,7 +27,7 @@ function mapToDouble(sourceArray) {
 function mapToSquare(sourceArray) {
   let r = []
   for (let i = 0; i < sourceArray.length; i++ ) {
-    r.push(src[i] * sourceArray[i]) // Unique work
+    r.push(sourceArray[i] * sourceArray[i]) // Unique work
   }
   return r
 }
