@@ -3,7 +3,7 @@
 function mapToNegativize(sourceArray) {
   let r = []
   for (let i = 0; i < sourceArray.length; i++ ) {
-    r.push(-1 * sourceArray[i]) // Unique work
+    r.push(sourceArray[i] * -1 ) // Unique work
   }
   return r
 }
